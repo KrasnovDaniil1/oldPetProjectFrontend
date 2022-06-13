@@ -1,0 +1,23 @@
+.playground {
+    width: 100vh;
+    aspect-ratio: 1/1;
+    background: #121061;
+    display: flex;
+    flex-wrap: wrap;
+    .playground-block {
+        aspect-ratio: 1/1;
+        border: 1px solid #322eac;
+    }
+    .snake-body {
+        position: absolute;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background: #ffffff;
+    }
+    .snake-eat {
+        position: absolute;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background: #f24a72;
+    }
+}

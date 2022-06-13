@@ -1,0 +1,23 @@
+.menu {
+    width: calc(100vw - 100vh);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .menu-text {
+        font-size: 70px;
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+    .btn-block {
+        color: #121061;
+        font-size: 100px;
+        .btn {
+            transition: color 0.5s;
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import 'menu.scss';
+@import 'playground.scss';
+@import 'popup.scss';
+@import 'reset.scss';
+
+.main-block {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background: #322eac;
+}
